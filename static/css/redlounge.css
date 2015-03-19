@@ -422,11 +422,12 @@ nav#TableOfContents li {
 	color: #aeaeae;
 }
 .footer a {
-	text-decoration: none;
+	text-decoration: underline #7F1000;
+	color: #E54028;
 }
 .footer a:hover {
-	color:#E54028;
-	text-decoration: underline;
+	color:#00000;
+	text-decoration: underline #00000;
 }
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
