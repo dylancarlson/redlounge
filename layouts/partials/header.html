@@ -9,20 +9,20 @@
   {{ partial "og.html" . }}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/js/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/js/pure/0.5.0/pure-min.css">
   <!--[if lte IE 8]>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-old-ie-min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseUrl }}/js/pure/0.5.0/grids-responsive-old-ie-min.css">
   <![endif]-->
   <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseUrl }}/js/pure/0.5.0/grids-responsive-min.css">
   <!--<![endif]-->
   <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+    <script src="{{ .Site.BaseUrl }}/js/html5shiv-3.7.2/html5shiv.js"></script>
   <![endif]-->
 
   <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/redlounge.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="{{ .Site.BaseUrl }}/js/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Vollkorn:400,700,400italic' rel='stylesheet' type='text/css'>  
   <link href='//fonts.googleapis.com/css?family=Nobile:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
@@ -37,7 +37,7 @@
   {{ partial "syntaxhighlight.html" . }}
 
   {{ if .Params.lightbox }}
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="{{ .Site.BaseUrl }}/js/jquery-1.11.2.min.js"></script>
   <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/lightbox.css">
   <script src="{{ .Site.BaseUrl }}/js/lightbox.min.js"></script>
   {{ end }}

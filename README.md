@@ -12,11 +12,11 @@ Some changes:
 * Personalized footer.html (copyright)
 * Personalized meta.html (favicons)
 * Personalized sidebarheader.html (added image into sidebar, if landing page)
-
-TODO:
-
-* Localize pure, html5shiv, font-awesome, jquery, highlight off of CDNs.  Why:
+* Localized pure, html5shiv, font-awesome, jquery, highlight.  Why:
   * Cloudflare is forcing captcha on Tor (et al.) users.
   * Cut down on third parties tracking my visitors.
   * Minimize risk of file changes upstream.
+
+TODO:
+
 * Add some useful stuff like charts, and improved embeds of github, youtube, etc.

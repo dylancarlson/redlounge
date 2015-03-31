@@ -432,6 +432,8 @@ nav#TableOfContents li {
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
     background: none;
+    color: #E54028;
+    text-decoration: underline #7F1000;
 }
 ul.footer-menu {
 	list-style: none;
