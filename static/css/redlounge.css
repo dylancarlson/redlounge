@@ -21,10 +21,10 @@ a {
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.5s;
-  color: #616161;
+  color: #B40404;
 }
 a:hover {
-	color:#E54028;
+	color:#D7DF01;
 }
 a:hover,
 a:focus {
