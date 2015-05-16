@@ -2,7 +2,7 @@ Red Lounge
 ===========
 
 These files are my minor changes to an open-source Hugo theme designed by [@shift8creative](http://www.twitter.com/shift8creative).
-This is actively published [here](http://chass.is).
+This is actively published [here](https://chass.is).
 [Original README](ORIG.md)
 
 Some changes:
