@@ -121,7 +121,7 @@ h2.brand-tagline {
 }
 .nav-item {
     display: inline-block;
-    *display: inline;
+    /* display: inline; */
     zoom: 1;
 }
 .nav-item a {
@@ -426,8 +426,8 @@ nav#TableOfContents li {
 	color: #E54028;
 }
 .footer a:hover {
-	color:#00000;
-	text-decoration: underline #00000;
+	color:#000000;
+	text-decoration: underline #000000;
 }
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
