@@ -2,7 +2,7 @@
 <body>
 	{{ if .Params.totop }}
 		<div id="nav-to-top">
-			<span class="decorative-marker">//</span><a href="#top">To Top</a>
+			<span class="nav"><span class="nav-list"><span class="nav-item"><a href="#top">Top</a></span></span></span>
 		</div>
 	{{ end }}
 
@@ -35,8 +35,11 @@
             	{{ .Params.subtitle }}
             </h3>
             {{ if not .Params.nodate }}
-            	<span class="post-date">
+<!--             	<span class="post-date">
                 	<span class="post-date-day"><sup>{{ .Date.Format "2" }}</sup></span><span class="post-date-separator">/</span><span class="post-date-month">{{ .Date.Format "Jan" }}</span> <span class="post-date-year">{{ .Date.Format "2006" }}</span>
+            	</span> -->
+            	<span class="post-date">
+            		<span class="post-date-year">{{ .Date.Format "2006" }}</span>-<span class="post-date-month">{{ .Date.Format "Jan" }}</span>-<span class="post-date-day">{{ .Date.Format "2" }}</span>
             	</span>
             	{{ end }}
             {{ if not .Params.noauthor }}
