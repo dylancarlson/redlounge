@@ -10,12 +10,12 @@
       <div class="posts">
         {{ range .Data.Pages }}
           <section  class="post">
-            <header class="post-header">
             {{ if .Params.thumbnail }}
             <div class="post-avatar-wrapper">
               <img class="post-avatar" alt="" src="{{ .Params.thumbnail }}">
             </div>
             {{ end }}
+            <header class="post-header">
             <h1 class="post-title">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </h1>
@@ -23,14 +23,14 @@
             <p class="post-meta">
             	{{ if not .Params.nodate }}
 		          <span class="post-date">
-		            <span class="post-date-day"><sup>{{ .Date.Format "2" }}</sup></span><span class="post-date-separator">/</span><span class="post-date-month">{{ .Date.Format "Jan" }}</span> <span class="post-date-year">{{ .Date.Format "2006" }}</span>
+                <span class="post-date-year">{{ .Date.Format "2006" }}</span>-<span class="post-date-month">{{ .Date.Format "Jan" }}</span>-<span class="post-date-day">{{ .Date.Format "2" }}</span>
 		          </span>
       				{{ end }}
       				{{ if not .Params.noauthor }}
       					{{ if .Params.author }}By <a class="post-author" {{ if .Params.authorlink }}href="{{ .Params.authorlink }}"{{ end }}>{{ .Params.author }}</a>{{ end }}
       				{{ end }}
               {{ if not .Params.noread }}
-                <span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>{{.ReadingTime}} min. read</em></span>
+                <br /><span class="post-reading-time"><i class="fa fa-clock-o"></i> <em>{{.ReadingTime}} min. read</em></span>
               {{ end }}
       				{{ if .Params.categories }}
       					<div class="post-categories">
