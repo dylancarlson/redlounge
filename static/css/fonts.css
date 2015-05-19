@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), 
+    url(https://chass.is/fonts/sourcesanspro/ODelI1aHBYDBqgeIAH2zlJbPFduIYtoLzwST68uhz_Y.woff2) format('woff2'), 
+    url(https://chass.is/fonts/sourcesanspro/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), 
+    url(https://chass.is/fonts/sourcesanspro/toadOcfmlt9b38dHJxOBGJkF8H8ye47wsfpWywda8og.woff2) format('woff2'), 
+    url(https://chass.is/fonts/sourcesanspro/toadOcfmlt9b38dHJxOBGIqjGYJUyOXcBwUQbRaNH6c.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), 
+    url(https://chass.is/fonts/sourcesanspro/toadOcfmlt9b38dHJxOBGIq-Fb0zf838trI74uojZQY.woff2) format('woff2'), 
+    url(https://chass.is/fonts/sourcesanspro/toadOcfmlt9b38dHJxOBGC7eGk4PJkA83J1AXCmgUfc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldIt'), 
+    url(https://chass.is/fonts/sourcesanspro/fpTVHK8qsXbIeTHTrnQH6H0cQ2LOPDPk8GfVMt0MqYH3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2'), 
+    url(https://chass.is/fonts/sourcesanspro/fpTVHK8qsXbIeTHTrnQH6PgYMAt3u4NmhhzLLLPJ5qH3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Source Sans Pro Black Italic'), local('SourceSansPro-BlackIt'), 
+    url(https://chass.is/fonts/sourcesanspro/fpTVHK8qsXbIeTHTrnQH6Ekie17uDcARvvg0QA3ZZLH3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2'), 
+    url(https://chass.is/fonts/sourcesanspro/fpTVHK8qsXbIeTHTrnQH6MJvEBP8Mx4XcuTrPnlPwTr3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), 
+    url(https://chass.is/fonts/vollkorn/BCFBp4rt5gxxFrX6F12DKvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nobile';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nobile'), local('Nobile-Regular'), 
+    url(https://chass.is/fonts/nobile/DG8QsMl4cLhwKd7DbhnV6A.ttf) format('truetype');
+}
