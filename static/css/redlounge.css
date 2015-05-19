@@ -251,8 +251,8 @@ a.post-author {
 	height: 50px;
 	border-radius: 50px;
     overflow: hidden;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-left: 1rem; */
+    margin-right: 1rem; 
     float: left;
 }
 .post-avatar {
@@ -385,32 +385,6 @@ a.post-category:hover {
 	margin-bottom: 0.75rem;
 	font-size: 0.85rem;
 	color: #999;
-}
-
-/* Decorative Marker */
-.decorative-marker {
-	color: #E54028;
-	letter-spacing: -0.25rem;
-	margin-right: 0.4rem;
-	margin-left: 0.1rem;
-	display: inline-block;
-	zoom: 1;
-}
-.decorative-marker a {
-    background: transparent;
-    color: #fff;
-    margin-top: 1rem;
-    letter-spacing: 0.05rem;
-    text-transform: uppercase;
-    font-size: 0.85rem;
-    text-decoration: none;
-    margin-right: 0.1rem;
-    line-height: 1.5rem;
-}
-.decorative-marker a:hover,
-.decorative-marker a:focus {
-    color: #E54028;
-    text-decoration: none;
 }
 
 /* Paging */
