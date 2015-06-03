@@ -36,9 +36,9 @@
             </h3>
             {{ if not .Params.nodate }}
             	<span class="post-date">
-            		<span class="post-date-year">{{ .Date.Format "2006" }}</span>-<span class="post-date-month">{{ .Date.Format "Jan" }}</span>-<span class="post-date-day">{{ .Date.Format "2" }}</span>
+            		<span class="post-date-year">{{ .Date.Format "2006" }}</span>&#8209;<span class="post-date-month">{{ .Date.Format "Jan" }}</span>&#8209;<span class="post-date-day">{{ .Date.Format "02" }}</span>
             	</span>
-            	{{ end }}
+            {{ end }}
             {{ if not .Params.noauthor }}
             	{{ if .Params.author }}
             		<span class="post-author-single">By <a class="post-author" {{ if .Params.authorlink }}href="{{ .Params.authorlink }}"{{ end }} target="{{ .Params.authorlinktarget }}">{{ .Params.author }}</a></span>
@@ -47,13 +47,13 @@
             {{ end }}
 
 			{{ $Site := .Site }}
-			{{ if .Params.categories }}
+<!-- 			{{ if .Params.categories }}
 				<div class="post-categories">
 				{{ range .Params.categories }}
 					<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseUrl}}/categories/{{ . | urlize }}">{{ . }}</a>
 				{{ end }}
 				</div>
-			{{ end }}
+			{{ end }} -->
 
 			{{ if .Params.socialsharing }}
 		    	{{ partial "socialsharing.html" . }}
